@@ -1,13 +1,13 @@
-# Exercícios para JS com Lógica de programação: Cadastro e pesquisa de artistas
+# JS Exercises with Programming Logic: Registration and Artist Search
 
-Uma casa de shows precisa cadastrar todos os artistas que tocam por lá. É muito importante guardar 3 informações sobre eles:
+A concert hall needs to register all the artists that play there. It is very important to keep 3 pieces of information about them:
 
--   Nome
--   Estilo Musical
--   Dias da semana com disponibilidade
+-   Name
+-   Music style
+-   Days of the week with availability
 
-Desafio é utilizar Javascript para criar uma função chamada **cadastrarArtista**, que recebe 3 parâmetros: nome (string), estiloMusical (string), diasDisponiveis (array) e adiciona esse novo artista a uma variável global chamada listaArtistas.
+The challenge is to use Javascript to create a function called **registerArtist**, which receives 3 parameters: name (string), MusicalStyle (string), daysAvailables (array) and adds this new artist to a global variable called _Artistslist_.
 
-## Artistas disponíveis
+## Artists available
 
-Temos um array chamado **listaArtistas** que guarda algumas informações como Nome, Estilo Musical e Dias da semana com disponibilidade. Seu desafio é criar uma função chamada **artistasDisponiveis(diaSemana)** que recebe o parâmetro diaSemana e imprime os artistas disponíveis naquele dia.
+We have an array called _Artistslist_ that stores some information such as Name, Music Style and Days of the week with availability. Your challenge is to create a function called **ArtistsAvailable(dayWeek)** that receives the parameter dayWeek and prints the artists available on that day.
