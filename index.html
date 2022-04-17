@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Omma - Painel administrativo</title>
+		<link rel="stylesheet" href="admin.css" />
+	</head>
+
+	<body>
+		<header>
+			<h1>Lista de Artistas</h1>
+		</header>
+		<main>
+			<section class="painel-artistas"></section>
+			<section class="formulario">
+				<h2>Adicionar Novo Artista</h2>
+				<form>
+					<label for="nome">Nome do Artista</label>
+					<input type="text" name="nomeArtista" id="nomeArtista" />
+					<br />
+					<label for="estilo-musical">Estilo Musical</label>
+					<input type="estilo-musical" name="estilo-musical" id="estilo-musical" />
+					<br />
+					<br />
+					<label for="dias-disponiveis">Dias Disponiveis</label>
+					<select id="dias-disponiveis" name="dias-disponiveis" size="7" multiple>
+						<option value="segunda-feira">segunda-feira</option>
+						<option value="terca-feira">terca-feira</option>
+						<option value="quarta-feira">quarta-feira</option>
+						<option value="quinta-feira">quinta-feira</option>
+						<option value="sexta-feira">sexta-feira</option>
+						<option value="sábado">sábado</option>
+						<option value="domingo">domingo</option>
+					</select>
+					<br />
+					<br />
+
+					<br />
+					<button id="btnEnviar">enviar</button>
+					<br />
+				</form>
+			</section>
+			<section class="buscar">
+				<h2>Dias Disponiveis</h2>
+				<form>
+					<select id="dias-disponivel" name="dias-disponivel" size="7">
+						<option value="segunda-feira">segunda-feira</option>
+						<option value="terca-feira">terca-feira</option>
+						<option value="quarta-feira">quarta-feira</option>
+						<option value="quinta-feira">quinta-feira</option>
+						<option value="sexta-feira">sexta-feira</option>
+						<option value="sábado">sábado</option>
+						<option value="domingo">domingo</option>
+					</select>
+					<br />
+					<br />
+
+					<br />
+					<button id="btnBuscar">enviar</button>
+					<br />
+				</form>
+				<section class="painel-busca"></section>
+			</section>
+		</main>
+		<script src="./index.js"></script>
+	</body>
+</html>
